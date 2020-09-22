@@ -13,7 +13,13 @@
   #out{
     box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
     background-color: #FFFFFF;
+    max-width: 500px;
+    border-radius: 6px;
   }
+  #frm{
+    max-width: 400px;
+  }
+  
   #user_icon{
     box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
     border-radius: 80px;
@@ -39,8 +45,8 @@
     </div>
     
     <h3 class="text-center"> Welcome! </h3>
-    <div id="out" class="container mt-4 mb-4 p-3">
-      <form class="frm">
+    <div id="out" class="container mt-4 mb-4 p-4">
+      <div id="frm" class="container">
         <div class="form-group">
           <label for="formGroupExampleInput">Email</label>
           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your email">
@@ -49,7 +55,7 @@
           <label for="formGroupExampleInput2">Password</label>
           <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter Password">
         </div>
-      </form>
+      </div>
       <div class="d-flex justify-content-center mt-3 ">
         <a href="#">Forgot password?</a>
       </div>
@@ -63,11 +69,10 @@
         <button type="Submit" class="btn btn-dark btn-md pl-5 pr-5 ">Login</button>
       </div>
     </div>
+    <div class="d-flex justify-content-center mt-4">
+      <button type="Submit" class="btn btn-success btn-md pl-4 pr-4 ">Create an account</button>
+    </div>
   </div>
-  <div class="d-flex justify-content-center mt-4">
-    <button type="Submit" class="btn btn-success btn-md pl-4 pr-4 ">Create an account</button>
-  </div>
-    
   <p class="text-center mt-5"> By : Dumpasan, Ryan Rey C. </p>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
